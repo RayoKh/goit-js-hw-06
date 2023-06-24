@@ -13,6 +13,7 @@ refs.form.addEventListener("submit", (event) => {
 
   if (email.value === "" || password.value === "") {
     alert("Усі поля мають бути заповненими!");
+    return;
   }
 
   const users = {
